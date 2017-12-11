@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ArtCom</string>
+    <string name="my_player_activity">Player Activity</string>
+    <string name="get_started">بزن بریم</string>
+</resources>
