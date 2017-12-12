@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="net.cachapa.expandablelayout:expandablelayout-2.9.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expandablelayout-2.9.1.aar/ac341483a21ec321f70e2cac107d0fd1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expandablelayout-2.9.1.aar/ac341483a21ec321f70e2cac107d0fd1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.cachapa.expandablelayout/expandablelayout/2.9.1/9de4427ab4b67a43e3dc2f348acd7e6ee5a4cc3f/expandablelayout-2.9.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
