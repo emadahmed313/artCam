@@ -2,4 +2,25 @@
     <string name="app_name">ArtCom</string>
     <string name="my_player_activity">Player Activity</string>
     <string name="get_started">بزن بریم</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="season_5_title">‫‫فصل ‫پنج‬ ‫: جی ‫کدینگ‬‬</string>
+    <string name="season_4_title">‫‫فصل ‫چهارم‬ ‫‫:‫آموزش‬‬‬ ‫محیط‬ ماشینکاری</string>
+    <string name="season_3_title">‫فصل سوم : آموزش‬‫‬ محیط‬ ‫سه‬ بعدی‫</string>
+    <string name="season_2_title">‫‫فصل‬ دوم : طراحی‬ دوبعدی‫</string>
+    <string name="season_1_title">‫‫فصل‬ اول : ‫معرفی‬ نرم افزار</string>
+    <string name="error">video error</string>
+    <string name="subtitle">
+        </string>
+
+
+    <string-array name="season_1_part_1">
+        <item>با اجراي نرم افزار آرتکم پنجره اي مانند تصوير باز خواهد شده که در آن بخش هاي زير وجود دارد:</item>
+        <item>new model : باز کردن فايل جديد</item>
+        <item>new project: باز کردن پروژه جديد</item>
+        <item>open: باز کردن طرح از پيش طراحي شده</item>
+        <item>Recent Models : ليست فايل هايي که به تازگي در نرم افزار اجرا شده اند</item>
+    </string-array>
+
+
 </resources>

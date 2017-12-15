@@ -51,19 +51,10 @@ public class NvAdapter extends RecyclerView.Adapter<NvAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
 
-
         holder.tv_Parent.setText(list.get(position));
-        holder.tv_child_dash.setText("داشبورد");
         holder.tv_Parent.setSelected(false);
         holder.expandableLayout.collapse(false);
         holder.nv_expand_icon.setImageResource(R.drawable.ic_chevron_left_black_24dp);
-        if (list.get(position).equals(PUB)) {
-            holder.tv_child_media.setText("رسانه های من");
-        } else {
-            holder.tv_child_media.setText("تبلیغات من");
-
-        }
-
 
     }
 
@@ -74,10 +65,16 @@ public class NvAdapter extends RecyclerView.Adapter<NvAdapter.ViewHolder> {
 
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener, ExpandableLayout.OnExpansionUpdateListener {
 
-        @BindView(R.id.tv_child_dash)
-        TextView tv_child_dash;
-        @BindView(R.id.tv_child_media)
-        TextView tv_child_media;
+        @BindView(R.id.tv_fasl1)
+        TextView tv_fasl1;
+        @BindView(R.id.tv_fasl2)
+        TextView tv_fasl2;
+        @BindView(R.id.tv_fasl3)
+        TextView tv_fasl3;
+        @BindView(R.id.tv_fasl4)
+        TextView tv_fasl4;
+        @BindView(R.id.tv_fasl5)
+        TextView tv_fasl5;
         @BindView(R.id.parent_textView)
         TextView tv_Parent;
         @BindView(R.id.expandable_layout)
@@ -95,8 +92,11 @@ public class NvAdapter extends RecyclerView.Adapter<NvAdapter.ViewHolder> {
             expandableLayout.setInterpolator(new OvershootInterpolator());
             expandableLayout.setOnExpansionUpdateListener(this);
             relativeLayout.setOnClickListener(this);
-            tv_child_media.setOnClickListener(this);
-            tv_child_dash.setOnClickListener(this);
+            tv_fasl1.setOnClickListener(this);
+            tv_fasl2.setOnClickListener(this);
+            tv_fasl3.setOnClickListener(this);
+            tv_fasl4.setOnClickListener(this);
+            tv_fasl5.setOnClickListener(this);
         }
 
         @Override
@@ -104,16 +104,21 @@ public class NvAdapter extends RecyclerView.Adapter<NvAdapter.ViewHolder> {
 
             switch (v.getId()) {
 
-                case R.id.tv_child_dash:
-
-                    nvAdapterClickCallBAck.onDashClicked(getAdapterPosition());
+                case R.id.tv_fasl1:
+                    nvAdapterClickCallBAck.onPartClicked(1);
                     break;
-
-                case R.id.tv_child_media:
-
-                    nvAdapterClickCallBAck.onMediaClicked(getAdapterPosition());
+                case R.id.tv_fasl2:
+                    nvAdapterClickCallBAck.onPartClicked(2);
                     break;
-
+                case R.id.tv_fasl3:
+                    nvAdapterClickCallBAck.onPartClicked(3);
+                    break;
+                case R.id.tv_fasl4:
+                    nvAdapterClickCallBAck.onPartClicked(4);
+                    break;
+                case R.id.tv_fasl5:
+                    nvAdapterClickCallBAck.onPartClicked(5);
+                    break;
                 case R.id.expand_button:
 
                     NvAdapter.ViewHolder holder = (ViewHolder) recyclerView.findViewHolderForAdapterPosition(selectedItem);

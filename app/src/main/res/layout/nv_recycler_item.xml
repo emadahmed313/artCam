@@ -31,7 +31,6 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
 
-
             />
 
 
@@ -52,21 +51,53 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/tv_child_dash"
+                android:id="@+id/tv_fasl1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:elevation="4dp"
                 android:gravity="center"
                 android:padding="16dp"
+                android:text="@string/season_1_title"
                 android:textColor="#fff" />
 
             <TextView
-                android:id="@+id/tv_child_media"
+                android:id="@+id/tv_fasl2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:elevation="4dp"
                 android:gravity="center"
                 android:padding="16dp"
+                android:text="@string/season_2_title"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/tv_fasl3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/season_3_title"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/tv_fasl4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/season_4_title"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/tv_fasl5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/season_5_title"
                 android:textColor="#fff" />
 
 

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "789041604384",
+    "firebase_url": "https://artcam-59865.firebaseio.com",
+    "project_id": "artcam-59865",
+    "storage_bucket": "artcam-59865.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789041604384:android:51deafbd44ebe267",
+        "android_client_info": {
+          "package_name": "ir.app.artcam.artcam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789041604384-trv1ci7ppj9nuggvd7kps7qkce02kjks.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ir.app.artcam.artcam",
+            "certificate_hash": "d754855cf492c2bb24845e8f702385afb07d20fb"
+          }
+        },
+        {
+          "client_id": "789041604384-ag2otnlmiga29qeuljeh6p91pa0sfvch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzRCY-WT492k6XLhlTwJBn36_5XZXuNL8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789041604384-ag2otnlmiga29qeuljeh6p91pa0sfvch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

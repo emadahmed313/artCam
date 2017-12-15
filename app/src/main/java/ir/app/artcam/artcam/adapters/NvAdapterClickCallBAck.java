@@ -6,9 +6,6 @@ package ir.app.artcam.artcam.adapters;
 
 public interface NvAdapterClickCallBAck {
 
-    void onMediaClicked(int position);
-
-    void onDashClicked(int position);
-
+    void onPartClicked(int season);
 
 }

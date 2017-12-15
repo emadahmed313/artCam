@@ -12,7 +12,7 @@ public class MainPresenter extends MvpBasePresenter<MainContract.View> implement
     @Override
     public void start() {
 
-        getView().setData();
+        ifViewAttached(MainContract.View::setData);
 
     }
 
